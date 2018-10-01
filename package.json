@@ -1,7 +1,7 @@
 {
-  "name": "finscan-ts-wrapper",
+  "name": "dep-repo-1",
   "version": "0.1.0",
-  "description": "finscan soap wrapper service",
+  "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "typings": "./dist/index.d.ts",
