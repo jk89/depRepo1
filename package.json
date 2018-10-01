@@ -1,0 +1,30 @@
+{
+  "name": "finscan-ts-wrapper",
+  "version": "0.1.0",
+  "description": "finscan soap wrapper service",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "keywords": [
+    "library",
+    "typescript"
+  ],
+  "author": {
+    "name": "Jonathan Kelsey"
+  },
+  "scripts": {
+    "build": "npm run tslint && tsc --declaration",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "ci": "npm run lint && npm run test && npm run build && npm run docs",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  }
+}
